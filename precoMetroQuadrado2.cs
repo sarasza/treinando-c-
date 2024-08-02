@@ -22,7 +22,7 @@ namespace PrimeiroProjeto
             priceTotal = area * pricePerSquareMeter;
 
             Console.WriteLine("A área total é: " + area.ToString("F2"), CultureInfo.InvariantCulture);
-            Console.WriteLine("O valor do terreno é: " + priceTotal.ToString("F2"), CultureInfo.InvariantCulture) ;
+            Console.WriteLine("O valor do terreno é: " + priceTotal.ToString("F2"), CultureInfo.InvariantCulture);
 
             Console.ReadLine();
         }
