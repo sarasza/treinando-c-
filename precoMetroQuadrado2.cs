@@ -1,7 +1,5 @@
 using System;
-using System.Diagnostics.Metrics;
 using System.Globalization;
-using System.Runtime.ConstrainedExecution;
 
 namespace PrimeiroProjeto
 {
