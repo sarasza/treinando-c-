@@ -12,14 +12,15 @@ namespace PrimeiroProjeto
         {
 
             double media;
+            string[] vet;
 
-            string[] vet1 = Console.ReadLine().Split(' ');
-            string name1 = vet1[0];
-            int age1 = int.Parse(vet1[1]);
+            vet = Console.ReadLine().Split(' ');
+            string name1 = vet[0];
+            int age1 = int.Parse(vet[1]);
 
-            string[] vet2 = Console.ReadLine().Split(' ');
-            string name2 = vet2[0];
-            int age2 = int.Parse(vet2[1]);
+            vet = Console.ReadLine().Split(' ');
+            string name2 = vet[0];
+            int age2 = int.Parse(vet[1]);
 
             media = (age1 + age2) / 2.0;
 
