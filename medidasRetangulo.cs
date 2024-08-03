@@ -19,6 +19,8 @@ namespace PrimeiroProjeto
             area = altura * baseR;
             perimetro = 2 * (baseR + altura);
 
+            // diagonal = Math.Sqrt(Math.Pow(baseR, 2.0) + Math.Pow(altura, 2.0)
+
             alturaQuadrado = Math.Pow(altura, 2.0);
             baseQuadrado = Math.Pow(baseR, 2.0);
 
